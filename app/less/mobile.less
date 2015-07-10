@@ -1382,7 +1382,7 @@ a.im_message_fwd_author {
   }
 }
 
-.im_voice_recording {
+.im_voice_recording, .im_processing_recording {
   background-color: rgb(23, 23, 23);
   color: white;
 
@@ -1402,6 +1402,16 @@ a.im_message_fwd_author {
     display: none;
   }
 
+}
+
+.im_processing_recording {
+  .im_recorder_indicator i {
+    background-color: green;
+  }
+
+  .im_record {
+    display: none;
+  }
 }
 
 .icon-emoji {
