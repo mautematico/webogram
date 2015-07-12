@@ -194,6 +194,7 @@
 	"confirm_modal_forward_to_peer": "Forward to {peer}?",
 	"confirm_modal_send_to_peer": "Send to {peer}?",
 	"confirm_modal_share_file_peer": "Share with {peer}?",
+	"confirm_modal_invite_peer": "Invite to {peer}?",
 	"confirm_modal_apply_lang_with_reload_md": "Reload the App to apply language?",
 	"confirm_modal_migrate_to_https_md": "Telegram Web now supports additional SSL encryption. Would you like to switch to HTTPS?\nThe HTTP version will be disabled soon.",
 	"confirm_modal_resize_desktop_md": "Would you like to switch to desktop version?",
@@ -283,6 +284,12 @@
 	"message_service_joined_by_link": "joined group via invite link",
 	"message_service_unsupported_action": "unsupported action {action}",
 	"message_service_bot_intro_header": "What can this bot do?",
+
+	"message_action_reply": "Reply",
+	"message_action_delete": "Delete",
+	"message_action_forward": "Forward",
+	"message_action_select": "Select",
+	"message_action_cancel": "Cancel",
 
 	"error_modal_warning_title": "Warning",
 	"error_modal_bad_request_title": "Error",
