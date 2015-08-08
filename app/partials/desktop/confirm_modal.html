@@ -15,6 +15,7 @@
         </ng-pluralize>
       </span>
       <span ng-switch-when="FILE_CLIPBOARD_PASTE" my-i18n="confirm_modal_clipboard_file_send"></span>
+      <img  ng-switch-when="FILE_CLIPBOARD_PASTE" ng-src={{blobURL}} class="col-xs-12">
       <span ng-switch-when="MESSAGE_DELETE" my-i18n="confirm_modal_message_delete"></span>
       <span ng-switch-when="MESSAGES_DELETE">
         <ng-pluralize count="count"

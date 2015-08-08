@@ -1554,7 +1554,8 @@ angular.module('myApp.directives', ['myApp.filters'])
       }
 
       function onFilePaste (blob) {
-        ErrorService.confirm({type: 'FILE_CLIPBOARD_PASTE'}).then(function () {
+        var blobURL = URL.createObjectURL(blob);
+        ErrorService.confirm({type: 'FILE_CLIPBOARD_PASTE', blobURL: blobURL}).then(function () {
           $scope.draftMessage.files = [blob];
           $scope.draftMessage.isMedia = true;
         });
